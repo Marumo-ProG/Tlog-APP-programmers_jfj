@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TLog Hello!</title>
+        <title>Tlog Application</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/logged.css">
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <img class="logo" src="img/Tlog logo.png" />
+        <h5 class="userName"></h5>
+        
+        <!-- map -->
+        <div class="container">
+        
+            <!-- The map will be rendered here -->
+            <div class="map-field" id="map"></div>
+               
+            <!-- message from the server to client-->
+            <h3></h3>
+            <!-- making the message panel -->
+            <form id="emailInput" method="POST" action="/email" class="form-group">
+                <label><strong>Enter a message to Lenny here:</strong></label>
+                <textarea class="form-control" name="message" >         
+                </textarea>
+                <button type="submit" class="form-control btn btn-primary" >Submit</button>
+            </form>
+        </div>
+        
+        <script>
+            // code for using the geolocation feature of html 5
+            
+        </script>
+    </body>
+
+</html>
