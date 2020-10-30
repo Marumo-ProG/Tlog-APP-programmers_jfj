@@ -1,0 +1,11 @@
+body{
+    background: url("../img/splash.png") center fixed;
+    background-size: cover;
+}
+.Inputs{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.Inputs button {
+    margin-top: 20px;
+}
